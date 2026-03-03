@@ -12,6 +12,9 @@ python server.py
 http://localhost:8000  
   
   
+# Explicaciones técnicas  
+  
+
 ### Qué hace la interfaz
 
 La clave técnica es que usa **Server-Sent Events (SSE)**  
