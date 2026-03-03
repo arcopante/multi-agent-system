@@ -8,14 +8,11 @@ python server.py
 
 # 4. Abrir en el navegador
 http://localhost:8000
-```
 
----
 
 ### Qué hace la interfaz
 
 La clave técnica es que usa **Server-Sent Events (SSE)** — el servidor va enviando eventos al navegador en tiempo real conforme pasan cosas:
-```
 [orquestador planifica]  →  aparecen las 3 tarjetas de subagentes
 [subagente A termina]    →  su tarjeta se ilumina en verde
 [subagente B termina]    →  idem (en paralelo, el orden varía)
