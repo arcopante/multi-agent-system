@@ -15,14 +15,11 @@ http://localhost:8000
 ### Qué hace la interfaz
 
 La clave técnica es que usa **Server-Sent Events (SSE)**  
+  
 el servidor va enviando eventos al navegador en tiempo real conforme pasan cosas:  
 [orquestador planifica]  →  aparecen las 3 tarjetas de subagent  
-
 [subagente A termina]    →  su tarjeta se ilumina en vere  
-
 [subagente B termina]    →  idem (en paralelo, el orden varí  
-
 [subagente C termina]    →  idm  
-
 [síntesis lista]         →  aparece el resultado finl  
 
