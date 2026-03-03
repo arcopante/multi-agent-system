@@ -2,12 +2,16 @@
 pip install anthropic fastapi uvicorn
 
 # 2. Poner los dos archivos en la misma carpeta
+
 # 3. Arrancar
 export ANTHROPIC_API_KEY="sk-ant-..."
+
 python server.py
+
 
 # 4. Abrir en el navegador
 http://localhost:8000
+
 
 
 
