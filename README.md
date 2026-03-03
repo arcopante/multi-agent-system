@@ -22,17 +22,18 @@ el servidor va enviando eventos al navegador en tiempo real conforme pasan cosas
 [subagente B termina]    →  idem (en paralelo, el orden varia)  
 [subagente C termina]    →  idem  
 [síntesis lista]         →  aparece el resultado final  
-
-
+  
+  
 ### Cómo está estructurado  
 
-Pregunta del usuario
-       ↓
-[Orquestador] → define 3 subtareas via LLM (JSON)
-       ↓
-[Subagente A] ──┐
-[Subagente B] ──┼── asyncio.gather() → corren al mismo tiempo
-[Subagente C] ──┘
-       ↓
-[Sintetizador] → une los 3 resultados en respuesta final
+Pregunta del usuario  
+       ↓  
+[Orquestador] → define 3 subtareas via LLM (JSON)  
+       ↓  
+[Subagente A] ──┐  
+[Subagente B] ──┼── asyncio.gather() → corren al mismo tiempo  
+[Subagente C] ──┘  
+       ↓  
+[Sintetizador] → une los 3 resultados en respuesta final  
+  
 
