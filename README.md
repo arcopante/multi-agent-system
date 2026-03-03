@@ -4,8 +4,13 @@ pip install anthropic fastapi uvicorn
 # 2. Poner los dos archivos en la misma carpeta
 
 # 3. Arrancar
+Para la versión Anthropic usar en el index.html server.py:  
 export ANTHROPIC_API_KEY="sk-ant-..."  
 python server.py  
+
+Para la versión Copilot-pro cambiar en el index.html server.py por server_copilot.py:  
+export GITHUB_TOKEN="ghp_..."  
+python server_copilot.py  
 
 
 # 4. Abrir en el navegador
